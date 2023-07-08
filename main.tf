@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Raminfra" {
-	ami = "ami-0c2b8ca1dad447f8a" 
+resource "aws_instance" "pallabiinfra" {
+	ami = "ami-06ca3ca175f37dd66" 
 	instance_type = "t2.micro"
 }
